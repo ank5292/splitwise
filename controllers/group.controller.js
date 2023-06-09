@@ -1,6 +1,4 @@
-const { async } = require("q");
 const db = require("../models");
-const { where } = require("sequelize");
 const expenseController = require("./userExpense.controller");
 const AppUser = db.appUser;
 const Group = db.group;

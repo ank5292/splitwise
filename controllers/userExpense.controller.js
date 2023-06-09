@@ -1,8 +1,6 @@
-const { async } = require("q");
 const db = require("../models");
 const UserExpense = db.userExpense;
 const UserSplit = db.userSplit;
-const Op = db.Sequelize.Op;
 const AppUser = db.appUser;
 const UserGroup = db.userGroup
 

@@ -1,10 +1,8 @@
-const { async } = require("q");
 const db = require("../models");
 const AppUser = db.appUser;
 const UserSplit = db.userSplit;
 const Sequelize = require("sequelize");
-const { INTEGER } = require("sequelize/lib/data-types");
-const { boolean } = require("yargs");
+
 
 
 function getUserObject(req){
